@@ -20,7 +20,7 @@
   float:left;
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover {
-  background: none repeat scroll 0 0 #262626;
+  background: none repeat scroll 0 0;
   color: #fff;
   margin-right: 1px;
   padding: 0.625rem 1.25rem;
@@ -63,7 +63,7 @@ form.customform input, form.customform textarea, form.customform select {
 form.customform input:hover, form.customform textarea:hover, form.customform select:hover, form.customform input:focus, form.customform textarea:focus, form.customform select:focus {background: none repeat scroll 0 0 #fff;}
 form.customform input, form.customform textarea, form.customform select {
  background: none repeat scroll 0 0 #F5F5F5;
- border: 1px solid #E0E0E0;
+ border: 1ax solid #E0E0E0;
  padding: 0.625rem;
  width: 100%;
 }

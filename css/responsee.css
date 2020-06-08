@@ -54,7 +54,8 @@ img {
 }
 .owl-item img, .full-img {
   max-width: none;
-  width:100%;
+  width:500px;
+  height:200px;
 }
 .owl-nav div {font-family: "mfg";}  
 table {

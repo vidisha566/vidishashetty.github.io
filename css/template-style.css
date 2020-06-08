@@ -5,13 +5,17 @@ body {
   background: #fff;
 }
 p {
-  color: #777;
+  color: #fff;
   font-size: 0.85rem;
   line-height: 1.6rem;
 }
-a, a:link, a:visited, a:hover, a:active { 
-color: #777;
+a { 
+color: #fff;
 }
+a:link, a:visited, a:hover, a:active {
+  color: #FF69B4;
+}
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;                                         
   margin-bottom: 15px;
@@ -361,9 +365,8 @@ nav.fixed, .fixed nav {
   padding: 1rem 0;
 }
 .logo img {
-  margin: 0 auto;
-  max-width: 300px;
-  width: 100%;
+  border-radius: 75px
+  ;
 }
 
 /* Aside Nav */
@@ -1913,6 +1916,7 @@ p.form-success {
 body {
   font-family: "Work Sans";
   font-weight: 400;
+  background-color: dark;
 }
 p {
   line-height: 1.6;
@@ -2000,7 +2004,7 @@ a:link.text-social:hover {
   border: 2px solid #125688;
   color: #125688!important;
 }
-.youtube, a:link.youtube {
+.github, a:link.youtube {
   background: none repeat scroll 0 0;
   border: 2px solid #bb0000;
   color: #bb0000!important;
